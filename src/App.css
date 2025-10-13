@@ -92,12 +92,18 @@ h5 {
 .color-bg-light {
   background: #ffffff;
 }
-.color-bg-reports {
+.color-bg-reports,
+.color-bg-reports::before,
+.color-bg-reports::after {
   background: #dd8e54;
 }
-.color-bg-blogs {
+.color-bg-blogs,
+.color-bg-blogs::before,
+.color-bg-blogs::after {
   background: #ad8ebf;
 }
-.color-bg-sports {
+.color-bg-sports,
+.color-bg-sports::before,
+.color-bg-sports::after {
   background: #bb7082;
 }

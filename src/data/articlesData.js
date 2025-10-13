@@ -8,6 +8,7 @@ const blogs = [
     image:
       "./assets/Article-Images/Blogs/[1] Ang Agosto 2023 ay isang mabatong daan.png",
     content: "",
+    author: "TomasinoWeb",
   },
   {
     title: "Liham para sa isang batang Tomasino",
@@ -18,6 +19,7 @@ const blogs = [
     image:
       "./assets/Article-Images/Blogs/[2] Liham para sa isang batang Tomasino.png",
     content: "",
+    author: "TomasinoWeb",
   },
   {
     title:
@@ -29,6 +31,7 @@ const blogs = [
     image:
       "./assets/Article-Images/Blogs/[3] Yakapin ang bawat sandali, Tomasino! Mga payo para sa unang taon sa kolehiyo.png",
     content: "",
+    author: "TomasinoWeb",
   },
   {
     title: "‘Barbie’ celebrates and criticizes the complexities of womanhood",
@@ -39,6 +42,7 @@ const blogs = [
     image:
       "./assets/Article-Images/Blogs/[4] ‘Barbie’ celebrates and criticizes the complexities of womanhood.png",
     content: "",
+    author: "TomasinoWeb",
   },
 ];
 
@@ -53,6 +57,7 @@ const reports = [
     image:
       "./assets/Article-Images/Reports/[1] Mga Tomasino humakot ng pwesto sa August 2023 MTLE UST itinanghal na fifth top-performing school.png",
     content: "",
+    author: "TomasinoWeb",
   },
   {
     title: "Tomasino pasok sa top 10 ng kauna-unahang food tech boards",
@@ -63,6 +68,7 @@ const reports = [
     image:
       "./assets/Article-Images/Reports/[2] Tomasino pasok sa top 10 ng kauna-unahang food tech boards.png",
     content: "",
+    author: "TomasinoWeb",
   },
   {
     title:
@@ -74,6 +80,7 @@ const reports = [
     image:
       "./assets/Article-Images/Reports/[3] Mga Tomasino nanguna sa August 2023 BLEPP UST tinanghal na isa sa mga Top Performing-Schools-min.png",
     content: "",
+    author: "TomasinoWeb",
   },
   {
     title: "Tiongco: ‘Maging totoo sa sarili, mamayagpag’",
@@ -84,6 +91,7 @@ const reports = [
     image:
       "./assets/Article-Images/Reports/[4] Tiongco ‘Maging totoo sa sarili, mamayagpag’.png",
     content: "",
+    author: "TomasinoWeb",
   },
 ];
 
@@ -115,6 +123,7 @@ Middle blocker Rainier Flor also paced the Tiger Spikers with 13 points off 11 e
 Meanwhile, the 6-foot-four rookie and former basketball player, Trevor Valera, was also a revelation down the stretch, scoring four points to contribute to the blocking and attacking departments of UST late in the last two sets.
 
 The Tiger Spikers will face the San Beda University Red Lions next Friday, September 15.—with reports from R. Maglinao`,
+    author: "TomasinoWeb",
   },
   {
     title: "Ang Liga: UST settles for another draw versus UP",
@@ -125,6 +134,7 @@ The Tiger Spikers will face the San Beda University Red Lions next Friday, Septe
     image:
       "./assets/Article-Images/Sports/[2] Ang Liga UST settles for another draw versus UP.png",
     content: "",
+    author: "TomasinoWeb",
   },
   {
     title: "EJ Obiena bounces back; takes top podium of ISTAF Berlin",
@@ -135,6 +145,7 @@ The Tiger Spikers will face the San Beda University Red Lions next Friday, Septe
     image:
       "./assets/Article-Images/Sports/[3] EJ Obiena bounces back takes top podium of ISTAF Berlin.png",
     content: "",
+    author: "TomasinoWeb",
   },
   {
     title:
@@ -146,6 +157,7 @@ The Tiger Spikers will face the San Beda University Red Lions next Friday, Septe
     image:
       "./assets/Article-Images/Sports/[4] Josh Ybañez’s monster game lifts UST past FEU for fourth V-League win.png",
     content: "",
+    author: "TomasinoWeb",
   },
 ];
 

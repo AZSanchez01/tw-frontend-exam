@@ -5,14 +5,13 @@ import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
-import Blogs from "./pages/Blogs";
-import Sports from "./pages/Sports";
+import Section from "./pages/Section";
+import Article from "./pages/Article";
 
 import articles from "./data/articlesData";
 export const ArticlesContext = createContext();
 
 function App() {
-  console.log(articles);
   return (
     <>
       <Header />
@@ -20,8 +19,8 @@ function App() {
         <ArticlesContext.Provider value={articles}>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/blogs" element={<Blogs />} />
-            <Route path="/sports" element={<Sports />} />
+            <Route path="/:section" element={<Section />} />
+            <Route path="/:section/:id" element={<Article />} />
           </Routes>
         </ArticlesContext.Provider>
       </main>
