@@ -9,6 +9,8 @@ function Home() {
       <div className={`site-side-padding`}>
         <LeadArticle {...articles.sports[0]} />
       </div>
+      <br />
+      <br />
     </>
   );
 }
