@@ -2,6 +2,7 @@ import { createContext } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 
+import Header from "./components/Header";
 import Home from "./pages/Home";
 import Blogs from "./pages/Blogs";
 import Sports from "./pages/Sports";
@@ -11,6 +12,7 @@ export const ArticlesContext = createContext();
 function App() {
   return (
     <>
+      <Header />
       <main>
         <ArticlesContext.Provider value={{}}>
           <Routes>
