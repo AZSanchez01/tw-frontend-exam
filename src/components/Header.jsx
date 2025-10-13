@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
 import styles from "./styles/Header.module.css";
-import menuIcon from "../assets/FontAwesome-Icons/bars-solid.svg";
 
 function Header() {
   // useState for nav toggle in mobile
@@ -30,7 +29,7 @@ function Header() {
             ✖
           </div>
           <img
-            src={menuIcon}
+            src="./assets/FontAwesome-Icons/bars-solid.svg"
             alt="menu"
             className={`${styles.navMenuIcon}  ${
               !menuOpen ? styles.fadein : ""

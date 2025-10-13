@@ -8,7 +8,7 @@ import Home from "./pages/Home";
 import Blogs from "./pages/Blogs";
 import Sports from "./pages/Sports";
 
-import articles from "../../tw-frontend-exam/src/assets/data/articlesData";
+import articles from "./data/articlesData";
 export const ArticlesContext = createContext();
 
 function App() {

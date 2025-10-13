@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./styles/LeadArticle.module.css";
-import calendarIcon from "../assets/FontAwesome-Icons/calendar-regular.svg";
+import calendarIcon from "../../public/assets/FontAwesome-Icons/calendar-regular.svg";
 
 function LeadArticle({ title, subtitle, date, genre, image }) {
   return (

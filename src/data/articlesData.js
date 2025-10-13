@@ -1,27 +1,3 @@
-const blogImages = import.meta.glob(
-  "../Article-Images/Blogs/*.{jpg,png,jpeg}",
-  {
-    eager: true,
-    import: "default",
-  }
-);
-
-const reportImages = import.meta.glob(
-  "../Article-Images/Reports/*.{jpg,png,jpeg}",
-  {
-    eager: true,
-    import: "default",
-  }
-);
-
-const sportsImages = import.meta.glob(
-  "../Article-Images/Sports/*.{jpg,png,jpeg}",
-  {
-    eager: true,
-    import: "default",
-  }
-);
-
 const blogs = [
   {
     title: "Ang Agosto 2023 ay isang mabatong daan",
@@ -30,9 +6,7 @@ const blogs = [
     genre: "blogs",
     date: "August 31, 2023",
     image:
-      blogImages[
-        "../Article-Images/Blogs/[1] Ang Agosto 2023 ay isang mabatong daan.png"
-      ],
+      "./assets/Article-Images/Blogs/[1] Ang Agosto 2023 ay isang mabatong daan.png",
     content: "",
   },
   {
@@ -42,9 +16,7 @@ const blogs = [
     genre: "blogs",
     date: "August 17, 2023",
     image:
-      blogImages[
-        "../Article-Images/Blogs/[2] Liham para sa isang batang Tomasino.png"
-      ],
+      "./assets/Article-Images/Blogs/[2] Liham para sa isang batang Tomasino.png",
     content: "",
   },
   {
@@ -55,9 +27,7 @@ const blogs = [
     genre: "blogs",
     date: "August 11, 2023",
     image:
-      blogImages[
-        "../Article-Images/Blogs/[3] Yakapin ang bawat sandali, Tomasino! Mga payo para sa unang taon sa kolehiyo.png"
-      ],
+      "./assets/Article-Images/Blogs/[3] Yakapin ang bawat sandali, Tomasino! Mga payo para sa unang taon sa kolehiyo.png",
     content: "",
   },
   {
@@ -67,9 +37,7 @@ const blogs = [
     genre: "blogs",
     date: "July 31, 2023",
     image:
-      blogImages[
-        "../Article-Images/Blogs/[4] ‘Barbie’ celebrates and criticizes the complexities of womanhood.png"
-      ],
+      "./assets/Article-Images/Blogs/[4] ‘Barbie’ celebrates and criticizes the complexities of womanhood.png",
     content: "",
   },
 ];
@@ -83,9 +51,7 @@ const reports = [
     genre: "reports",
     date: "August 21, 2023",
     image:
-      reportImages[
-        "../Article-Images/Reports/[1] Mga Tomasino humakot ng pwesto sa August 2023 MTLE UST itinanghal na fifth top-performing school.png"
-      ],
+      "./assets/Article-Images/Reports/[1] Mga Tomasino humakot ng pwesto sa August 2023 MTLE UST itinanghal na fifth top-performing school.png",
     content: "",
   },
   {
@@ -95,9 +61,7 @@ const reports = [
     genre: "reports",
     date: "August 16, 2023",
     image:
-      reportImages[
-        "../Article-Images/Reports/[2] Tomasino pasok sa top 10 ng kauna-unahang food tech boards.png"
-      ],
+      "./assets/Article-Images/Reports/[2] Tomasino pasok sa top 10 ng kauna-unahang food tech boards.png",
     content: "",
   },
   {
@@ -108,9 +72,7 @@ const reports = [
     genre: "reports",
     date: "August 09, 2023",
     image:
-      reportImages[
-        "../Article-Images/Reports/[3] Mga Tomasino nanguna sa August 2023 BLEPP UST tinanghal na isa sa mga Top Performing-Schools-min.png"
-      ],
+      "./assets/Article-Images/Reports/[3] Mga Tomasino nanguna sa August 2023 BLEPP UST tinanghal na isa sa mga Top Performing-Schools-min.png",
     content: "",
   },
   {
@@ -120,9 +82,7 @@ const reports = [
     genre: "reports",
     date: "August 08, 2023",
     image:
-      reportImages[
-        "../Article-Images/Reports/[4] Tiongco ‘Maging totoo sa sarili, mamayagpag’.png"
-      ],
+      "./assets/Article-Images/Reports/[4] Tiongco ‘Maging totoo sa sarili, mamayagpag’.png",
     content: "",
   },
 ];
@@ -135,9 +95,7 @@ const sports = [
     genre: "sports",
     date: "September 10, 2023",
     image:
-      sportsImages[
-        "../Article-Images/Sports/[1] Tiger Spikers jolt Blue Eagles for V-League top seat.png"
-      ],
+      "./assets/Article-Images/Sports/[1] Tiger Spikers jolt Blue Eagles for V-League top seat.png",
     content: `The UST Tiger Spikers extended their winning streak to five games after snapping the Ateneo Blue Eagles’ unbeaten run, 25-20, 25-23, 22-25, 25-15, to hold the top seat in the V-League Collegiate Challenge, September 10, at Paco Arena in Manila. 
 
 Josh Ybanez eked out another outstanding performance for his third Player of the Game nod in the tournament as he notched 23 points off 18 excellent attacks, four blocks, and one service ace, lifting the Tiger Spikers to another win.
@@ -165,9 +123,7 @@ The Tiger Spikers will face the San Beda University Red Lions next Friday, Septe
     genre: "sports",
     date: "September 09, 2023",
     image:
-      sportsImages[
-        "../Article-Images/Sports/[2] Ang Liga UST settles for another draw versus UP.png"
-      ],
+      "./assets/Article-Images/Sports/[2] Ang Liga UST settles for another draw versus UP.png",
     content: "",
   },
   {
@@ -177,9 +133,7 @@ The Tiger Spikers will face the San Beda University Red Lions next Friday, Septe
     genre: "sports",
     date: "September 04, 2023",
     image:
-      sportsImages[
-        "../Article-Images/Sports/[3] EJ Obiena bounces back takes top podium of ISTAF Berlin.png"
-      ],
+      "./assets/Article-Images/Sports/[3] EJ Obiena bounces back takes top podium of ISTAF Berlin.png",
     content: "",
   },
   {
@@ -190,9 +144,7 @@ The Tiger Spikers will face the San Beda University Red Lions next Friday, Septe
     genre: "sports",
     date: "September 03, 2023",
     image:
-      sportsImages[
-        "../Article-Images/Sports/[4] Josh Ybañez’s monster game lifts UST past FEU for fourth V-League win.png"
-      ],
+      "./assets/Article-Images/Sports/[4] Josh Ybañez’s monster game lifts UST past FEU for fourth V-League win.png",
     content: "",
   },
 ];
