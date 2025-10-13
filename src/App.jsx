@@ -3,6 +3,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Blogs from "./pages/Blogs";
 import Sports from "./pages/Sports";
@@ -22,6 +23,7 @@ function App() {
           </Routes>
         </ArticlesContext.Provider>
       </main>
+      <Footer />
     </>
   );
 }

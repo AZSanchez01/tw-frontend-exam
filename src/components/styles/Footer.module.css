@@ -1,0 +1,34 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #191a1c;
+}
+
+.copyright {
+  color: white;
+}
+
+.iconsList {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.5rem;
+}
+.icon {
+  max-width: 20px;
+  filter: invert(100%);
+}
+
+@media (max-width: 625px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+  }
+  .iconsList {
+    justify-content: center;
+  }
+  .icon {
+    max-width: 15px;
+  }
+}
