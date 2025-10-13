@@ -7,7 +7,15 @@ const blogs = [
     date: "August 31, 2023",
     image:
       "./assets/Article-Images/Blogs/[1] Ang Agosto 2023 ay isang mabatong daan.png",
-    content: "",
+    content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quam eros, sollicitudin non suscipit at, pellentesque in leo. Sed posuere metus ligula, sit amet iaculis nunc porttitor commodo. 
+    
+Etiam vitae ligula mollis, interdum dui ut, commodo velit. Donec dictum sagittis malesuada. Phasellus tempor enim id ipsum maximus varius. Vestibulum facilisis mauris purus, non mattis massa ullamcorper elementum. Mauris at molestie risus. Ut at ligula libero. 
+    
+Phasellus blandit fermentum sem, quis consequat orci bibendum vitae. Integer vel hendrerit dui. Fusce placerat convallis mauris. Sed nec odio dapibus, tincidunt turpis nec, sollicitudin sapien. Vivamus aliquam convallis sapien, eu semper nibh ullamcorper pretium.
+
+Integer nec risus lorem. Phasellus in rhoncus ipsum, efficitur bibendum turpis. Cras ac sem massa. Ut pharetra blandit eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed semper augue diam, at fringilla turpis eleifend vitae. 
+
+Aenean ullamcorper nisl at sem sagittis congue. Fusce quis diam molestie, fringilla nibh non, sagittis ex. Morbi id congue nisl. Pellentesque quis lectus velit. Cras hendrerit neque quis egestas dignissim. Suspendisse scelerisque sodales nunc sed cursus. Donec ac tristique elit.`,
     author: "TomasinoWeb",
   },
   {
@@ -18,7 +26,15 @@ const blogs = [
     date: "August 17, 2023",
     image:
       "./assets/Article-Images/Blogs/[2] Liham para sa isang batang Tomasino.png",
-    content: "",
+    content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quam eros, sollicitudin non suscipit at, pellentesque in leo. Sed posuere metus ligula, sit amet iaculis nunc porttitor commodo. 
+    
+Etiam vitae ligula mollis, interdum dui ut, commodo velit. Donec dictum sagittis malesuada. Phasellus tempor enim id ipsum maximus varius. Vestibulum facilisis mauris purus, non mattis massa ullamcorper elementum. Mauris at molestie risus. Ut at ligula libero. 
+    
+Phasellus blandit fermentum sem, quis consequat orci bibendum vitae. Integer vel hendrerit dui. Fusce placerat convallis mauris. Sed nec odio dapibus, tincidunt turpis nec, sollicitudin sapien. Vivamus aliquam convallis sapien, eu semper nibh ullamcorper pretium.
+
+Integer nec risus lorem. Phasellus in rhoncus ipsum, efficitur bibendum turpis. Cras ac sem massa. Ut pharetra blandit eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed semper augue diam, at fringilla turpis eleifend vitae. 
+
+Aenean ullamcorper nisl at sem sagittis congue. Fusce quis diam molestie, fringilla nibh non, sagittis ex. Morbi id congue nisl. Pellentesque quis lectus velit. Cras hendrerit neque quis egestas dignissim. Suspendisse scelerisque sodales nunc sed cursus. Donec ac tristique elit.`,
     author: "TomasinoWeb",
   },
   {
@@ -30,7 +46,15 @@ const blogs = [
     date: "August 11, 2023",
     image:
       "./assets/Article-Images/Blogs/[3] Yakapin ang bawat sandali, Tomasino! Mga payo para sa unang taon sa kolehiyo.png",
-    content: "",
+    content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quam eros, sollicitudin non suscipit at, pellentesque in leo. Sed posuere metus ligula, sit amet iaculis nunc porttitor commodo. 
+    
+Etiam vitae ligula mollis, interdum dui ut, commodo velit. Donec dictum sagittis malesuada. Phasellus tempor enim id ipsum maximus varius. Vestibulum facilisis mauris purus, non mattis massa ullamcorper elementum. Mauris at molestie risus. Ut at ligula libero. 
+    
+Phasellus blandit fermentum sem, quis consequat orci bibendum vitae. Integer vel hendrerit dui. Fusce placerat convallis mauris. Sed nec odio dapibus, tincidunt turpis nec, sollicitudin sapien. Vivamus aliquam convallis sapien, eu semper nibh ullamcorper pretium.
+
+Integer nec risus lorem. Phasellus in rhoncus ipsum, efficitur bibendum turpis. Cras ac sem massa. Ut pharetra blandit eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed semper augue diam, at fringilla turpis eleifend vitae. 
+
+Aenean ullamcorper nisl at sem sagittis congue. Fusce quis diam molestie, fringilla nibh non, sagittis ex. Morbi id congue nisl. Pellentesque quis lectus velit. Cras hendrerit neque quis egestas dignissim. Suspendisse scelerisque sodales nunc sed cursus. Donec ac tristique elit.`,
     author: "TomasinoWeb",
   },
   {
@@ -41,7 +65,15 @@ const blogs = [
     date: "July 31, 2023",
     image:
       "./assets/Article-Images/Blogs/[4] ‘Barbie’ celebrates and criticizes the complexities of womanhood.png",
-    content: "",
+    content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quam eros, sollicitudin non suscipit at, pellentesque in leo. Sed posuere metus ligula, sit amet iaculis nunc porttitor commodo. 
+    
+Etiam vitae ligula mollis, interdum dui ut, commodo velit. Donec dictum sagittis malesuada. Phasellus tempor enim id ipsum maximus varius. Vestibulum facilisis mauris purus, non mattis massa ullamcorper elementum. Mauris at molestie risus. Ut at ligula libero. 
+    
+Phasellus blandit fermentum sem, quis consequat orci bibendum vitae. Integer vel hendrerit dui. Fusce placerat convallis mauris. Sed nec odio dapibus, tincidunt turpis nec, sollicitudin sapien. Vivamus aliquam convallis sapien, eu semper nibh ullamcorper pretium.
+
+Integer nec risus lorem. Phasellus in rhoncus ipsum, efficitur bibendum turpis. Cras ac sem massa. Ut pharetra blandit eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed semper augue diam, at fringilla turpis eleifend vitae. 
+
+Aenean ullamcorper nisl at sem sagittis congue. Fusce quis diam molestie, fringilla nibh non, sagittis ex. Morbi id congue nisl. Pellentesque quis lectus velit. Cras hendrerit neque quis egestas dignissim. Suspendisse scelerisque sodales nunc sed cursus. Donec ac tristique elit.`,
     author: "TomasinoWeb",
   },
 ];
@@ -56,7 +88,15 @@ const reports = [
     date: "August 21, 2023",
     image:
       "./assets/Article-Images/Reports/[1] Mga Tomasino humakot ng pwesto sa August 2023 MTLE UST itinanghal na fifth top-performing school.png",
-    content: "",
+    content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quam eros, sollicitudin non suscipit at, pellentesque in leo. Sed posuere metus ligula, sit amet iaculis nunc porttitor commodo. 
+    
+Etiam vitae ligula mollis, interdum dui ut, commodo velit. Donec dictum sagittis malesuada. Phasellus tempor enim id ipsum maximus varius. Vestibulum facilisis mauris purus, non mattis massa ullamcorper elementum. Mauris at molestie risus. Ut at ligula libero. 
+    
+Phasellus blandit fermentum sem, quis consequat orci bibendum vitae. Integer vel hendrerit dui. Fusce placerat convallis mauris. Sed nec odio dapibus, tincidunt turpis nec, sollicitudin sapien. Vivamus aliquam convallis sapien, eu semper nibh ullamcorper pretium.
+
+Integer nec risus lorem. Phasellus in rhoncus ipsum, efficitur bibendum turpis. Cras ac sem massa. Ut pharetra blandit eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed semper augue diam, at fringilla turpis eleifend vitae. 
+
+Aenean ullamcorper nisl at sem sagittis congue. Fusce quis diam molestie, fringilla nibh non, sagittis ex. Morbi id congue nisl. Pellentesque quis lectus velit. Cras hendrerit neque quis egestas dignissim. Suspendisse scelerisque sodales nunc sed cursus. Donec ac tristique elit.`,
     author: "TomasinoWeb",
   },
   {
@@ -67,7 +107,15 @@ const reports = [
     date: "August 16, 2023",
     image:
       "./assets/Article-Images/Reports/[2] Tomasino pasok sa top 10 ng kauna-unahang food tech boards.png",
-    content: "",
+    content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quam eros, sollicitudin non suscipit at, pellentesque in leo. Sed posuere metus ligula, sit amet iaculis nunc porttitor commodo. 
+    
+Etiam vitae ligula mollis, interdum dui ut, commodo velit. Donec dictum sagittis malesuada. Phasellus tempor enim id ipsum maximus varius. Vestibulum facilisis mauris purus, non mattis massa ullamcorper elementum. Mauris at molestie risus. Ut at ligula libero. 
+    
+Phasellus blandit fermentum sem, quis consequat orci bibendum vitae. Integer vel hendrerit dui. Fusce placerat convallis mauris. Sed nec odio dapibus, tincidunt turpis nec, sollicitudin sapien. Vivamus aliquam convallis sapien, eu semper nibh ullamcorper pretium.
+
+Integer nec risus lorem. Phasellus in rhoncus ipsum, efficitur bibendum turpis. Cras ac sem massa. Ut pharetra blandit eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed semper augue diam, at fringilla turpis eleifend vitae. 
+
+Aenean ullamcorper nisl at sem sagittis congue. Fusce quis diam molestie, fringilla nibh non, sagittis ex. Morbi id congue nisl. Pellentesque quis lectus velit. Cras hendrerit neque quis egestas dignissim. Suspendisse scelerisque sodales nunc sed cursus. Donec ac tristique elit.`,
     author: "TomasinoWeb",
   },
   {
@@ -79,7 +127,15 @@ const reports = [
     date: "August 09, 2023",
     image:
       "./assets/Article-Images/Reports/[3] Mga Tomasino nanguna sa August 2023 BLEPP UST tinanghal na isa sa mga Top Performing-Schools-min.png",
-    content: "",
+    content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quam eros, sollicitudin non suscipit at, pellentesque in leo. Sed posuere metus ligula, sit amet iaculis nunc porttitor commodo. 
+    
+Etiam vitae ligula mollis, interdum dui ut, commodo velit. Donec dictum sagittis malesuada. Phasellus tempor enim id ipsum maximus varius. Vestibulum facilisis mauris purus, non mattis massa ullamcorper elementum. Mauris at molestie risus. Ut at ligula libero. 
+    
+Phasellus blandit fermentum sem, quis consequat orci bibendum vitae. Integer vel hendrerit dui. Fusce placerat convallis mauris. Sed nec odio dapibus, tincidunt turpis nec, sollicitudin sapien. Vivamus aliquam convallis sapien, eu semper nibh ullamcorper pretium.
+
+Integer nec risus lorem. Phasellus in rhoncus ipsum, efficitur bibendum turpis. Cras ac sem massa. Ut pharetra blandit eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed semper augue diam, at fringilla turpis eleifend vitae. 
+
+Aenean ullamcorper nisl at sem sagittis congue. Fusce quis diam molestie, fringilla nibh non, sagittis ex. Morbi id congue nisl. Pellentesque quis lectus velit. Cras hendrerit neque quis egestas dignissim. Suspendisse scelerisque sodales nunc sed cursus. Donec ac tristique elit.`,
     author: "TomasinoWeb",
   },
   {
@@ -90,7 +146,15 @@ const reports = [
     date: "August 08, 2023",
     image:
       "./assets/Article-Images/Reports/[4] Tiongco ‘Maging totoo sa sarili, mamayagpag’.png",
-    content: "",
+    content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quam eros, sollicitudin non suscipit at, pellentesque in leo. Sed posuere metus ligula, sit amet iaculis nunc porttitor commodo. 
+    
+Etiam vitae ligula mollis, interdum dui ut, commodo velit. Donec dictum sagittis malesuada. Phasellus tempor enim id ipsum maximus varius. Vestibulum facilisis mauris purus, non mattis massa ullamcorper elementum. Mauris at molestie risus. Ut at ligula libero. 
+    
+Phasellus blandit fermentum sem, quis consequat orci bibendum vitae. Integer vel hendrerit dui. Fusce placerat convallis mauris. Sed nec odio dapibus, tincidunt turpis nec, sollicitudin sapien. Vivamus aliquam convallis sapien, eu semper nibh ullamcorper pretium.
+
+Integer nec risus lorem. Phasellus in rhoncus ipsum, efficitur bibendum turpis. Cras ac sem massa. Ut pharetra blandit eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed semper augue diam, at fringilla turpis eleifend vitae. 
+
+Aenean ullamcorper nisl at sem sagittis congue. Fusce quis diam molestie, fringilla nibh non, sagittis ex. Morbi id congue nisl. Pellentesque quis lectus velit. Cras hendrerit neque quis egestas dignissim. Suspendisse scelerisque sodales nunc sed cursus. Donec ac tristique elit.`,
     author: "TomasinoWeb",
   },
 ];
@@ -133,7 +197,15 @@ The Tiger Spikers will face the San Beda University Red Lions next Friday, Septe
     date: "September 09, 2023",
     image:
       "./assets/Article-Images/Sports/[2] Ang Liga UST settles for another draw versus UP.png",
-    content: "",
+    content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quam eros, sollicitudin non suscipit at, pellentesque in leo. Sed posuere metus ligula, sit amet iaculis nunc porttitor commodo. 
+    
+Etiam vitae ligula mollis, interdum dui ut, commodo velit. Donec dictum sagittis malesuada. Phasellus tempor enim id ipsum maximus varius. Vestibulum facilisis mauris purus, non mattis massa ullamcorper elementum. Mauris at molestie risus. Ut at ligula libero. 
+    
+Phasellus blandit fermentum sem, quis consequat orci bibendum vitae. Integer vel hendrerit dui. Fusce placerat convallis mauris. Sed nec odio dapibus, tincidunt turpis nec, sollicitudin sapien. Vivamus aliquam convallis sapien, eu semper nibh ullamcorper pretium.
+
+Integer nec risus lorem. Phasellus in rhoncus ipsum, efficitur bibendum turpis. Cras ac sem massa. Ut pharetra blandit eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed semper augue diam, at fringilla turpis eleifend vitae. 
+
+Aenean ullamcorper nisl at sem sagittis congue. Fusce quis diam molestie, fringilla nibh non, sagittis ex. Morbi id congue nisl. Pellentesque quis lectus velit. Cras hendrerit neque quis egestas dignissim. Suspendisse scelerisque sodales nunc sed cursus. Donec ac tristique elit.`,
     author: "TomasinoWeb",
   },
   {
@@ -144,7 +216,15 @@ The Tiger Spikers will face the San Beda University Red Lions next Friday, Septe
     date: "September 04, 2023",
     image:
       "./assets/Article-Images/Sports/[3] EJ Obiena bounces back takes top podium of ISTAF Berlin.png",
-    content: "",
+    content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quam eros, sollicitudin non suscipit at, pellentesque in leo. Sed posuere metus ligula, sit amet iaculis nunc porttitor commodo. 
+    
+Etiam vitae ligula mollis, interdum dui ut, commodo velit. Donec dictum sagittis malesuada. Phasellus tempor enim id ipsum maximus varius. Vestibulum facilisis mauris purus, non mattis massa ullamcorper elementum. Mauris at molestie risus. Ut at ligula libero. 
+    
+Phasellus blandit fermentum sem, quis consequat orci bibendum vitae. Integer vel hendrerit dui. Fusce placerat convallis mauris. Sed nec odio dapibus, tincidunt turpis nec, sollicitudin sapien. Vivamus aliquam convallis sapien, eu semper nibh ullamcorper pretium.
+
+Integer nec risus lorem. Phasellus in rhoncus ipsum, efficitur bibendum turpis. Cras ac sem massa. Ut pharetra blandit eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed semper augue diam, at fringilla turpis eleifend vitae. 
+
+Aenean ullamcorper nisl at sem sagittis congue. Fusce quis diam molestie, fringilla nibh non, sagittis ex. Morbi id congue nisl. Pellentesque quis lectus velit. Cras hendrerit neque quis egestas dignissim. Suspendisse scelerisque sodales nunc sed cursus. Donec ac tristique elit.`,
     author: "TomasinoWeb",
   },
   {
@@ -156,7 +236,15 @@ The Tiger Spikers will face the San Beda University Red Lions next Friday, Septe
     date: "September 03, 2023",
     image:
       "./assets/Article-Images/Sports/[4] Josh Ybañez’s monster game lifts UST past FEU for fourth V-League win.png",
-    content: "",
+    content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quam eros, sollicitudin non suscipit at, pellentesque in leo. Sed posuere metus ligula, sit amet iaculis nunc porttitor commodo. 
+    
+Etiam vitae ligula mollis, interdum dui ut, commodo velit. Donec dictum sagittis malesuada. Phasellus tempor enim id ipsum maximus varius. Vestibulum facilisis mauris purus, non mattis massa ullamcorper elementum. Mauris at molestie risus. Ut at ligula libero. 
+    
+Phasellus blandit fermentum sem, quis consequat orci bibendum vitae. Integer vel hendrerit dui. Fusce placerat convallis mauris. Sed nec odio dapibus, tincidunt turpis nec, sollicitudin sapien. Vivamus aliquam convallis sapien, eu semper nibh ullamcorper pretium.
+
+Integer nec risus lorem. Phasellus in rhoncus ipsum, efficitur bibendum turpis. Cras ac sem massa. Ut pharetra blandit eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed semper augue diam, at fringilla turpis eleifend vitae. 
+
+Aenean ullamcorper nisl at sem sagittis congue. Fusce quis diam molestie, fringilla nibh non, sagittis ex. Morbi id congue nisl. Pellentesque quis lectus velit. Cras hendrerit neque quis egestas dignissim. Suspendisse scelerisque sodales nunc sed cursus. Donec ac tristique elit.`,
     author: "TomasinoWeb",
   },
 ];

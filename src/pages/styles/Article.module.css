@@ -68,6 +68,7 @@ section {
   font-size: clamp(12px, calc(4px + 2dvw), 16px);
   white-space: pre-wrap;
   max-width: 85ch;
+  text-align: justify;
 }
 .hrule {
   width: 100%;
