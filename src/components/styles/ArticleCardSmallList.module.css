@@ -1,0 +1,18 @@
+.heading {
+  font-weight: 500;
+  font-size: clamp(18px, calc(6px + 3dvw), 24px);
+  margin-bottom: 1em;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  gap: clamp(0.5em, 3dvw, 1.5em);
+}
+
+@media (max-width: 625px) {
+  .list {
+    flex-direction: column;
+  }
+}
