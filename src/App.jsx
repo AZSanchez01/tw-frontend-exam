@@ -8,14 +8,16 @@ import Home from "./pages/Home";
 import Blogs from "./pages/Blogs";
 import Sports from "./pages/Sports";
 
+import articles from "../../tw-frontend-exam/src/assets/data/articlesData";
 export const ArticlesContext = createContext();
 
 function App() {
+  console.log(articles);
   return (
     <>
       <Header />
       <main>
-        <ArticlesContext.Provider value={{}}>
+        <ArticlesContext.Provider value={articles}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/blogs" element={<Blogs />} />
