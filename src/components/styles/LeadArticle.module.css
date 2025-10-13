@@ -1,7 +1,6 @@
 .leadArticle {
   position: relative;
   height: calc(40vh + 20vw);
-  border: 2px solid red;
   border-radius: 1rem;
   overflow: hidden;
   opacity: 1;
