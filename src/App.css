@@ -1,16 +1,16 @@
 @font-face {
   font-family: "IBMPlexSans-Regular";
-  src: url("./assets/Fonts/IBMPlexSans-Regular.ttf") format("truetype");
+  src: url("/assets/Fonts/IBMPlexSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "IBMPlexSans-SemiBold";
-  src: url("./assets/Fonts/IBMPlexSans-SemiBold.ttf") format("truetype");
+  src: url("/assets/Fonts/IBMPlexSans-SemiBold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "IBMPlexSerif-Bold";
-  src: url("./assets/Fonts/IBMPlexSerif-Bold.ttf") format("truetype");
+  src: url("/assets/Fonts/IBMPlexSerif-Bold.ttf") format("truetype");
 }
 
 #root {
