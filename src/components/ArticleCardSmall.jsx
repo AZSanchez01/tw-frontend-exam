@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./styles/ArticleCardSmall.module.css";
 
-function ArticleCardSmall({ title, subtitle, genre, date, image }) {
+function ArticleCardSmall({ title, genre, date, image }) {
   return (
     <Link to={`/${genre}/${title}`} className={`${styles.navlink}`}>
       <div className={`${styles.card}`}>

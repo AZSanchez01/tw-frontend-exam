@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { ArticlesContext } from "../App";
 import LeadArticle from "../components/LeadArticle";
 import ArticleCardSmallList from "../components/ArticleCardSmallList";
+import ArticleCard from "../components/ArticleCard";
 
 function Home() {
   const articles = useContext(ArticlesContext);
@@ -23,6 +24,11 @@ function Home() {
       <div className={`site-side-padding`}>
         <ArticleCardSmallList heading="Sports" articles={articles.sports} />
       </div>
+      <br />
+      <br />
+      <section className={`site-side-padding`}>
+        <ArticleCard {...articles.sports[0]} />
+      </section>
       <br />
       <br />
     </>
