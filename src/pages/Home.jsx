@@ -27,7 +27,7 @@ function Home() {
       <br />
       <br />
       <section className={`site-side-padding`}>
-        <ArticleCard {...articles.sports[0]} />
+        <ArticleCard {...articles.sports[0]} color="white" />
       </section>
       <br />
       <br />

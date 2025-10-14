@@ -41,7 +41,6 @@
   grid-auto-flow: row;
   gap: clamp(0.25em, calc(0.1em + 1cqi), 0.5em);
   width: 100%;
-  color: #191a1c;
 }
 .text > * {
   display: -webkit-box;
