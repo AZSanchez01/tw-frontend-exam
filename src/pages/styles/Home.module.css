@@ -4,7 +4,7 @@
 .featured {
   display: grid;
   grid-auto-flow: column;
-  gap: 4em;
+  gap: clamp(2.5em, calc(0.8em + 3dvw), 4em);
   padding-top: clamp(2em, calc(0.5em + 3dvw), 4em);
   padding-bottom: clamp(2em, calc(0.5em + 3dvw), 4em);
 }
