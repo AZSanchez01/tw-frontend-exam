@@ -75,7 +75,7 @@
   font-size: clamp(8px, calc(2px + 3cqi), 16px);
 }
 
-@container (max-width: 547px) {
+@container (max-width: 550px) {
   .card {
     grid-template-columns: none;
     grid-auto-flow: row;

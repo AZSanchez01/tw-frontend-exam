@@ -9,6 +9,7 @@ import Section from "./pages/Section";
 import Article from "./pages/Article";
 
 import articles from "./data/articlesData";
+import sections from "./data/sectionsData";
 export const ArticlesContext = createContext();
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
     <>
       <Header />
       <main>
-        <ArticlesContext.Provider value={articles}>
+        <ArticlesContext.Provider value={{ articles, sections }}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/:section" element={<Section />} />

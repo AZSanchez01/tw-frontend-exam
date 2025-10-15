@@ -6,7 +6,7 @@ import styles from "./styles/Article.module.css";
 
 function Article() {
   const { section, id } = useParams();
-  const article = useContext(ArticlesContext)[section].find(
+  const article = useContext(ArticlesContext).articles[section].find(
     (articleInfo) => articleInfo.title == id
   );
   return (
@@ -53,7 +53,7 @@ function Article() {
       <section className={`site-side-padding`}>
         <ArticleCardSmallList
           heading="Related Articles"
-          articles={useContext(ArticlesContext).blogs}
+          articles={useContext(ArticlesContext).articles.blogs}
         />
       </section>
     </div>

@@ -5,7 +5,7 @@ import ArticleCardSmallList from "../components/ArticleCardSmallList";
 import ArticleCard from "../components/ArticleCard";
 
 function Home() {
-  const articles = useContext(ArticlesContext);
+  const { articles } = useContext(ArticlesContext);
   return (
     <>
       <div className={`site-side-padding`}>

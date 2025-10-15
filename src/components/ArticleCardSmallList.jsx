@@ -4,11 +4,11 @@ import styles from "./styles/ArticleCardSmallList.module.css";
 function ArticleCardSmallList({ heading, articles }) {
   return (
     <div>
-      <h3 className={styles.heading}>{heading}</h3>
+      <h3 className={`${styles.heading}`}>{heading}</h3>
       <ul className={`${styles.list}`}>
         {articles.map((article) => {
           return (
-            <li id={article.title}>
+            <li key={article.title}>
               <ArticleCardSmall {...article} />
             </li>
           );

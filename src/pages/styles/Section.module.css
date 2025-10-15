@@ -1,0 +1,29 @@
+.list {
+  display: grid;
+  grid-auto-flow: row;
+  gap: clamp(2.5em, calc(0.8em + 3dvw), 3.5em);
+  list-style: none;
+  padding: 0;
+}
+.sectionBanner {
+  display: grid;
+  align-items: center;
+  grid-auto-flow: rows;
+  gap: 1em;
+}
+.list,
+.sectionBanner {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+.sectionBanner > * {
+  width: 100%;
+}
+.sectionName {
+  font-size: clamp(24px, calc(8px + 3dvw), 40px);
+  font-weight: 500;
+}
+.sectionInfo {
+  font-size: clamp(12px, calc(4px + 2dvw), 16px);
+  max-width: 60ch;
+}
