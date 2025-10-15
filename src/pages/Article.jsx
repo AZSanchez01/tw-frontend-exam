@@ -6,6 +6,17 @@ import styles from "./styles/Article.module.css";
 
 function Article() {
   const { section, id } = useParams();
+
+  // Related articles to match figma only
+  const articles = useContext(ArticlesContext).articles;
+  const relArticles = [
+    articles.sports[1],
+    articles.sports[2],
+    articles.sports[3],
+    articles.blogs[0],
+  ];
+
+  // Find the article
   const article = useContext(ArticlesContext).articles[section].find(
     (articleInfo) => articleInfo.title == id
   );
@@ -53,7 +64,7 @@ function Article() {
       <section className={`site-side-padding`}>
         <ArticleCardSmallList
           heading="Related Articles"
-          articles={useContext(ArticlesContext).articles.blogs}
+          articles={relArticles}
         />
       </section>
     </div>
