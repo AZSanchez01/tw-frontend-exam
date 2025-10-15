@@ -72,7 +72,7 @@
   color: #787f87;
 }
 .subtitle {
-  font-size: clamp(8px, calc(2px + 3cqi), 16px);
+  font-size: clamp(8px, calc(2px + 2cqi), 16px);
 }
 
 @container (max-width: 550px) {
