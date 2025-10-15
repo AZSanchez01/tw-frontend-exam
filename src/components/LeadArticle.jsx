@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import styles from "./styles/LeadArticle.module.css";
-import calendarIcon from "../../public/assets/FontAwesome-Icons/calendar-regular.svg";
 
 function LeadArticle({ title, subtitle, date, genre, image }) {
   return (
@@ -14,7 +13,11 @@ function LeadArticle({ title, subtitle, date, genre, image }) {
             {subtitle}
           </p>
           <div className={`${styles.date}`}>
-            <img src={calendarIcon} alt="" className={`${styles.calendar}`} />
+            <img
+              src="./assets/FontAwesome-Icons/calendar-regular.svg"
+              alt="Date"
+              className={`${styles.calendar}`}
+            />
             <span>{date}</span>
           </div>
         </div>
