@@ -8,7 +8,7 @@
   padding: 0;
   display: flex;
   justify-content: space-around;
-  gap: clamp(0.5em, 3dvw, 1.5em);
+  gap: clamp(1em, calc(0.3em + 3dvw), 3em);
 }
 
 @media (max-width: 625px) {
