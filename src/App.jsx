@@ -1,5 +1,5 @@
-import { createContext } from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import { useEffect, createContext } from "react";
+import { Routes, Route, useLocation } from "react-router-dom";
 import "./App.css";
 
 import Header from "./components/Header";
@@ -19,6 +19,7 @@ function App() {
       <main>
         <ArticlesContext.Provider value={{ articles, sections }}>
           <Routes>
+            {ScrollToTop()}
             <Route path="/" element={<Home />} />
             <Route path="/:section" element={<Section />} />
             <Route path="/:section/:id" element={<Article />} />
@@ -28,6 +29,18 @@ function App() {
       <Footer />
     </>
   );
+}
+
+// Scroll to top on new link/refresh
+function ScrollToTop() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, [pathname]);
+  return null;
 }
 
 export default App;
