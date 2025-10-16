@@ -2,10 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #191a1c;
-}
-
-.copyright {
   color: white;
 }
 

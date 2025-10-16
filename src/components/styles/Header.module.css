@@ -55,17 +55,17 @@
     outline: none;
     border: none;
   }
+  .navMenuIcon,
+  .navCloseMenuIcon {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
   .navCloseMenuIcon {
     color: white;
     font-size: 24px;
   }
   .navMenuIcon {
     filter: invert(100%);
-  }
-  .navMenuIcon,
-  .navCloseMenuIcon {
-    opacity: 0;
-    transition: opacity 0.3s ease;
   }
 
   .navbar {
@@ -98,7 +98,6 @@
     top: 50%;
     transform: translateY(-50%);
   }
-
   .fadein {
     opacity: 1;
   }
